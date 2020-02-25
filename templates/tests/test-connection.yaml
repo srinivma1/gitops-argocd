@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "gitops-brown-bag.fullname" . }}-test-connection"
+  labels:
+    {{- include "gitops-brown-bag.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test-success
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "gitops-brown-bag.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never
