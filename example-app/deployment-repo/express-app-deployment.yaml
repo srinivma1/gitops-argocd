@@ -17,4 +17,4 @@ spec:
         - image: dizdarevic/express-app:v2
           name: express-app
           ports:
-            - containerPort: 3000
+            - containerPort: 80
