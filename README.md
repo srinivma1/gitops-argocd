@@ -54,4 +54,10 @@ argocd --insecure --grpc-web --server ${ARGOCD_ROUTE}:443 account update-passwor
 
 ```
 
-Now you should be able to use the ArgoCD WebUI and the ArgoCD Cli tool to interact with the ArgoCD Server
+Now you should be able to use the ArgoCD WebUI and the ArgoCD Cli tool to interact with the ArgoCD Server.
+
+Follow the below link to deploy above applicationn in this repo:
+
+https://dev.to/dizdarevic/gitops-w-argocd-a-tutorial-7o4
+
+
