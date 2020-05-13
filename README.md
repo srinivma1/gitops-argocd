@@ -1,7 +1,8 @@
 # gitops-argocd
 
-NSTALLING ARGOCD ON OPENSHIFT
-In this blog series we are using ArgoCD as it provides a great CLI and WebUI, future blogs will potentially explore different alternatives like Flux.
+INSTALLING ARGOCD ON OPENSHIFT
+
+In this blog series we are using ArgoCD as it provides a great CLI and WebUI, 
 
 In order to deploy ArgoCD on OpenShift 4 you can go ahead and follow the following steps as a cluster admin:
 
