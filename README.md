@@ -1,6 +1,6 @@
 # gitops-argocd
 
-### INSTALLING ARGOCD ON OPENSHIFT
+### Installing ArgoCD on Openshift
 
 In this article, we are using ArgoCD as it provides a great CLI and WebUI, 
 
